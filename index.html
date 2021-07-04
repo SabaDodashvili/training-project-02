@@ -1,0 +1,823 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <main class="page">
+        <header class="header lock-padding">
+  <div class="container">   
+    <div class="header__row">
+      <a href="#" class="header__logo">clemo.</a>
+      <nav class="header__manu manu">
+        <ul class="manu__list">
+          <li>
+            <a  class="manu__link" href="#" data-goto=".about-us">about us</a>
+            <span class="manu__arrow arrow"></span>
+            <ul class="sub-manu__list">
+              <li><a href="#" class="sub-manu__link">sub-manu__link N1</a></li>
+              <li><a href="#" class="sub-manu__link">sub-manu__link N2</a></li>
+              <li>
+                <a href="#" class="sub-manu__link">sub-manu__link N3</a>
+                <span class="sub-manu__arrow arrow"></span>
+                <ul class="sub-sub-manu__list">
+                  <li><a href="" class="sub-sub-manu__link">sub-sub-manu__link N1</a></li>
+                  <li><a href="" class="sub-sub-manu__link">sub-sub-manu__link N2</a></li>
+                  <li><a href="" class="sub-sub-manu__link">sub-sub-manu__link N3</a></li>
+                  <li><a href="" class="sub-sub-manu__link">sub-sub-manu__link  N4</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li><a  class="manu__link" data-goto=".reviews" href="#">reviews</a></li>
+          <li>
+            <a class="manu__link" data-goto='.works' href="#">works</a>
+            <span class="manu__arrow arrow"></span>
+            <ul class="sub-manu__list">
+              <li><a href="#" class="sub-manu__link">sub-manu__link N1</a></li>
+              <li><a href="#" class="sub-manu__link">sub-manu__link N2</a></li>
+              <li>
+                <a href="#" class="sub-manu__link">sub-manu__link N3</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a class="manu__link"  data-goto=".team" href="#">team</a>
+          </li>
+          <li><a class="manu__link scroll-to" data-goto=".contact" href="#">contact</a></li>
+        </ul>
+        <a class="manu__burger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </a>
+      </nav>
+    </div>
+  </div>
+</header>
+
+        <div class="fullscreen">
+          <div class="container">
+            <div class="fullscreen__welcome welcome">
+              <!--? S W I P E R   S L I D E R (VERTICAL)  -->
+              <div class="welcome__vertical-slider">
+                <div class="welcome__info">
+                  <h1 class="welcome__title title title-bold">we&nbsp;are&nbsp;clemo.</h1>
+                  <h4 class="welcome__sub-title">
+                    professionals <br />
+                    in&nbspthe& creative industries
+									</h2>
+                  <a href="#" class="welcome__button btn">get in touch</a>
+                </div>
+                <div class="vertical-imgs-slider swiper-container">
+                  <div class="vertical-imgs-slider__wrapper swiper-wrapper">
+                    <div data-hash="slide-1" class="vertical-imgs-slider__slide swiper-slide">
+                      <a class="vertical-imgs-slider__image">
+                        <picture>
+                          <source srcset="images/bg-images/fullscreen-bg-image.webp" type="image/webp" />
+                          <img data-src="images/bg-images/fullscreen-bg-image.jpg" src="images/1x1.png" class="swiper-lazy" />
+                        </picture>
+                      </a>
+                      <div class="swiper-lazy-preloader"></div>
+                    </div>
+                    <div data-hash="slide-2" class="vertical-imgs-slider__slide swiper-slide">
+                      <a class="vertical-imgs-slider__image">
+                        <picture>
+                          <source srcset="images/bg-images/fullscreen-bg-image.webp" type="image/webp" />
+                          <img data-src="images/bg-images/fullscreen-bg-image.jpg" src="images/1x1.png" class="swiper-lazy" />
+                        </picture>
+                      </a>
+                      <div class="swiper-lazy-preloader"></div>
+                    </div>
+                    <div data-hash="slide-3" class="vertical-imgs-slider__slide swiper-slide">
+                      <a class="vertical-imgs-slider__image">
+                        <picture>
+                          <source srcset="images/bg-images/fullscreen-bg-image.webp" type="image/webp" />
+                          <img data-src="images/bg-images/fullscreen-bg-image.jpg" src="images/1x1.png" class="swiper-lazy" />
+                        </picture>
+                      </a>
+                      <div class="swiper-lazy-preloader"></div>
+                    </div>
+                  </div>
+                  <div class="swiper-pagination"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="content">
+          <section class="what-we-do about-us">
+            <div class="container">
+              <h2 class="what-we-do__title title">what we do?</h2>
+              <div class="preview">
+                <div class="preview__row">
+                  <div class="preview__image-wrapper">
+                    <a href="#kitchen-image-popup" class="preview__image popup-link">
+                      <picture>
+                        <source srcset="images/what-we-do-imgs/01.webp" type="image/webp" />
+                        <img src="images/what-we-do-imgs/01.jpg" alt="" />
+                      </picture>
+                    </a>
+                  </div>
+                  <div class="preview__info">
+                    <div class="preview__titles-wrapper">
+                      <h3 class="preview__title title title-bold"> <span>creative</span> <br> kitchen</h3>
+                    </div>
+                    <div class="preview__text">
+                      <p>
+                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab
+                        illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+                      </p>
+                      <p>
+                        Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
+                        voluptatem sequi nesciunt.
+                      </p>
+                    </div>
+                    <button href="#creative-kitchen-popup" class="preview__btn btn btn-white popup-link"> learn more </button>
+                  </div>
+                </div>
+              </div>
+              <div class="preview preview-revers">
+                <div class="preview__row">
+                  <div class="preview__image-wrapper">
+                    <a href="#installation-image-popup" class="preview__image popup-link"
+                      ><picture>
+                        <source srcset="images/what-we-do-imgs/02.webp" type="image/webp" />
+                        <img src="images/what-we-do-imgs/02.jpg" alt="" /> </picture
+                    ></a>
+                  </div>
+                  <div class="preview__info">
+                    <div class="preview__titles-wrapper">
+                      <h3 class="preview__title title title-bold"> <span>art</span> <br>  installation</h3>
+                    </div>
+                    <div class="preview__text">
+                      <p>
+                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab
+                        illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+                      </p>
+                      <p>
+                        Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
+                        voluptatem sequi nesciunt.
+                      </p>
+                    </div>
+                    <button href="#art-installation-popup" class="preview__btn btn btn-white popup-link"> learn more </button>
+                  </div>
+                </div> 
+              </div>
+              <div class="preview">
+                <div class="preview__row">
+                  <div class="preview__image-wrapper">
+                    <a href="#design-image-popup" class="preview__image popup-link"
+                      ><picture>
+                        <source srcset="images/what-we-do-imgs/03.webp" type="image/webp" />
+                        <img src="images/what-we-do-imgs/03.jpg" alt="" /> </picture
+                    ></a>
+                  </div>
+                  <div class="preview__info">
+                    <div class="preview__titles-wrapper">
+                      <h3 class="preview__title title title-bold"> <span>print</span> <br> design</h3>
+                    </div>
+                    <div class="preview__text">
+                      <p>
+                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab
+                        illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+                      </p>
+                      <p>
+                        Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
+                        voluptatem sequi nesciunt.
+                      </p>
+                    </div>
+                    <button href="#print-design-popup" class="preview__btn btn btn-white popup-link"> learn more </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="our-best-works works">
+            <div class="container">
+              <h2 class="our-best-works__title title">our&nbsp;best&nbsp;works</h2>
+              <div class="our-best-works__content">
+                <div class="our-best-works__column">
+                  <a href="#best-works-image-1" class="our-best-works__image popup-link">
+                    <picture>
+                      <source srcset="images/our-bestworks-imgs/1.webp" type="image/webp" />
+                      <img src="images/our-bestworks-imgs/1.jpg" alt="" />
+                    </picture>
+                  </a>
+                  <a href="#best-works-image-2" class="our-best-works__image popup-link">
+                    <picture>
+                      <source srcset="images/our-bestworks-imgs/2.webp" type="image/webp" />
+                      <img src="images/our-bestworks-imgs/2.jpg" alt="" />
+                    </picture>
+                  </a>
+                </div>
+                <div class="our-best-works__column our-best-works__column-revers">
+                  <a href="#best-works-image-3" class="our-best-works__image popup-link">
+                    <picture>
+                      <source srcset="images/our-bestworks-imgs/3.webp" type="image/webp" />
+                      <img src="images/our-bestworks-imgs/3.jpg" alt="" />
+                    </picture>
+                  </a>
+                  <a href="#best-works-image-4" class="our-best-works__image popup-link">
+                    <picture>
+                      <source srcset="images/our-bestworks-imgs/4.webp" type="image/webp" />
+                      <img src="images/our-bestworks-imgs/4.jpg" alt="" />
+                    </picture>
+                  </a>
+                </div>
+                <div class="our-best-works__column">
+                  <a href="#best-works-image-5" class="our-best-works__image popup-link">
+                    <picture>
+                      <source srcset="images/our-bestworks-imgs/5.webp" type="image/webp" />
+                      <img src="images/our-bestworks-imgs/5.jpg" alt="" />
+                    </picture>
+                  </a>
+                  <a href="#best-works-image-6" class="our-best-works__image popup-link">
+                    <picture>
+                      <source srcset="images/our-bestworks-imgs/6.webp" type="image/webp" />
+                      <img src="images/our-bestworks-imgs/6.jpg" alt="" />
+                    </picture>
+                  </a>
+                </div>
+              </div>
+              <div class="our-best-works__mobile-slider">
+                <div class="mobile-slider-imgs swiper-container">
+                  <div class="mobile-slider-imgs__wrapper swiper-wrapper">
+                    <div class="mobile-slider-imgs__slide swiper-slide">
+                      <a href="#" class="mobile-slider-imgs__image">
+                        <picture>
+                          <source srcset="images/our-bestworks-imgs/1.webp" type="image/webp" />
+                          <img data-src="images/our-bestworks-imgs/1.jpg" src="images/1x1.png" class="swiper-lazy" />
+                        </picture>
+                      </a>
+                      <div class="swiper-lazy-preloader"></div>
+                    </div>
+                    <div class="mobile-slider-imgs__slide swiper-slide">
+                      <a href="#" class="mobile-slider-imgs__image">
+                        <picture>
+                          <source srcset="images/our-bestworks-imgs/2.webp" type="image/webp" />
+                          <img data-src="images/our-bestworks-imgs/2.jpg" src="images/1x1.png" class="swiper-lazy" />
+                        </picture>
+                      </a>
+                      <div class="swiper-lazy-preloader"></div>
+                    </div>
+                    <div class="mobile-slider-imgs__slide swiper-slide">
+                      <a href="#" class="mobile-slider-imgs__image">
+                        <picture>
+                          <source srcset="images/our-bestworks-imgs/3.webp" type="image/webp" />
+                          <img data-src="images/our-bestworks-imgs/3.jpg" src="images/1x1.png" class="swiper-lazy" />
+                        </picture>
+                      </a>
+                      <div class="swiper-lazy-preloader"></div>
+                    </div>
+                    <div class="mobile-slider-imgs__slide swiper-slide">
+                      <a href="#" class="mobile-slider-imgs__image">
+                        <picture>
+                          <source srcset="images/our-bestworks-imgs/4.webp" type="image/webp" />
+                          <img data-src="images/our-bestworks-imgs/4.jpg" src="images/1x1.png" class="swiper-lazy" />
+                        </picture>
+                      </a>
+                      <div class="swiper-lazy-preloader"></div>
+                    </div>
+                    <div class="mobile-slider-imgs__slide swiper-slide">
+                      <a href="#" class="mobile-slider-imgs__image">
+                        <picture>
+                          <source srcset="images/our-bestworks-imgs/5.webp" type="image/webp" />
+                          <img data-src="images/our-bestworks-imgs/5.jpg" src="images/1x1.png" class="swiper-lazy" />
+                        </picture>
+                      </a>
+                      <div class="swiper-lazy-preloader"></div>
+                    </div>
+                    <div class="mobile-slider-imgs__slide swiper-slide">
+                      <a href="#" class="mobile-slider-imgs__image">
+                        <picture>
+                          <source srcset="images/our-bestworks-imgs/6.webp" type="image/webp" />
+                          <img data-src="images/our-bestworks-imgs/6.jpg" src="images/1x1.png" class="swiper-lazy" />
+                        </picture>
+                      </a>
+                      <div class="swiper-lazy-preloader"></div>
+                    </div>
+                  </div>
+                  <div class="swiper-pagination"></div>
+                  <div class="mobile-slider-imgs__fraction">
+                    <div class="mobile-slider-imgs__current">1</div>
+                    <div class="mobile-slider-imgs__separator">/</div>
+                    <div class="mobile-slider-imgs__total">1</div>
+                  </div>
+                </div>
+              </div>
+              <a href="#" class="our-best-works__button btn">learn more</a>
+            </div>
+          </section>
+          <section class="best-team team">
+            <div class="container">
+              <h2 class="best-team__title title">best team</h2>
+              <div class="best-team__body">
+                <div class="best-team__face-slider">
+                  <div class="face-slider swiper-container">
+                    <div class="face-slider__wrapper swiper-wrapper">
+                      <div class="face-slider__slide swiper-slide">
+                        <div class="face-slider__item item">
+                          <div class="item__image-wrapper">
+                            <a href="#" class="item__image">
+                              <picture>
+                                <source srcset="images/faces/face-3.webp" type="image/webp" />
+                                <img src="images/faces/face-3.jpg" />
+                              </picture>
+                            </a>
+                          </div>
+                          <h3 class="item__title title title-bold">paul hall</h3>
+                          <h4 class="item__subtitle">art director</h4>
+                        </div>
+                      </div>
+                      <div class="face-slider__slide swiper-slide">
+                        <div class="face-slider__item item">
+                          <div class="item__image-wrapper">
+                            <a href="#" class="item__image">
+                              <picture>
+                                <source srcset="images/faces/face-2.webp" type="image/webp" />
+                                <img src="images/faces/face-2.jpg" /> </picture
+                            ></a>
+                          </div>
+                          <h3 class="item__title title title-bold">
+                            joshua <br />
+                            spencer
+                          </h3>
+                          <h4 class="item__subtitle">art director</h4>
+                        </div>
+                      </div>
+                      <div class="face-slider__slide swiper-slide">
+                        <div class="face-slider__item item">
+                          <div class="item__image-wrapper">
+                            <a href="#" class="item__image">
+                              <picture>
+                                <source srcset="images/faces/face-1.webp" type="image/webp" />
+                                <img src="images/faces/face-1.jpg" /> </picture
+                            ></a>
+                          </div>
+                          <h3 class="item__title title title-bold">diane lewis</h3>
+                          <h4 class="item__subtitle">art director</h4>
+                        </div>
+                      </div>
+                      <div class="face-slider__slide swiper-slide">
+                        <div class="face-slider__item item">
+                          <div class="item__image-wrapper">
+                            <a href="#" class="item__image">
+                              <picture>
+                                <source srcset="images/faces/face-3.webp" type="image/webp" />
+                                <img src="images/faces/face-3.jpg" /> </picture
+                            ></a>
+                          </div>
+                          <h3 class="item__title title title-bold">paul hall</h3>
+                          <h4 class="item__subtitle">art director</h4>
+                        </div>
+                      </div>
+                      <div class="face-slider__slide swiper-slide">
+                        <div class="face-slider__item item">
+                          <div class="item__image-wrapper">
+                            <a href="#" class="item__image"
+                              ><picture>
+                                <source srcset="images/faces/face-2.webp" type="image/webp" />
+                                <img src="images/faces/face-2.jpg" /> </picture
+                            ></a>
+                          </div>
+                          <h3 class="item__title title title-bold">
+                            joshua <br />
+                            spencer
+                          </h3>
+                          <h4 class="item__subtitle">art director</h4>
+                        </div>
+                      </div>
+                      <div class="face-slider__slide swiper-slide">
+                        <div class="face-slider__item item">
+                          <div class="item__image-wrapper">
+                            <a href="#" class="item__image"
+                              ><picture>
+                                <source srcset="images/faces/face-1.webp" type="image/webp" />
+                                <img src="images/faces/face-1.jpg" /> </picture
+                            ></a>
+                          </div>
+                          <h3 class="item__title title title-bold">diane lewis</h3>
+                          <h4 class="item__subtitle">art director</h4>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+
+                    <div class="swiper-pagination"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section  class="clients-says reviews">
+            <div class="container">
+              <div class="clients-says__body">
+                <h2 class="clients-says__title title">clients say’s</h2>
+                <div class="clients-says__info-row">
+                  <div class="clients-says__person">
+                    <h3 class="clients-says__title-b title title-bold">frank sims</h3>
+                    <h4 class="clients-says__subtitle">photographer</h4>
+                  </div>
+                  <div class="clients-says__text">
+                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo
+                    inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+                  </div>
+                </div>
+                <div class="clients-says__images">
+                  <div class="clients-says__img-wrapper">
+                    <a href="#reviews-image-popup-1" class="clients-says__img popup-link">
+                      <picture>
+                        <source srcset="images/clients-says/image1.webp" type="image/webp" />
+                        <img src="images/clients-says/image1.png" alt="" />
+                      </picture>
+                    </a>
+                  </div>
+                  <div class="clients-says__img-wrapper">
+                    <a href="#reviews-image-popup-2" class="clients-says__img popup-link"
+                      ><picture>
+                        <source srcset="images/clients-says/image2.webp" type="image/webp" />
+                        <img src="images/clients-says/image2.png" alt="" /> </picture
+                    ></a>
+                  </div>
+                  <div class="clients-says__img-wrapper">
+                    <a href="#reviews-image-popup-3" class="clients-says__img popup-link"
+                      ><picture>
+                        <source srcset="images/clients-says/image3.webp" type="image/webp" />
+                        <img src="images/clients-says/image3.png" alt="" /> </picture
+                    ></a>
+                  </div>
+                  <div class="clients-says__img-wrapper">
+                    <a href="#reviews-image-popup-4" class="clients-says__img popup-link"
+                      ><picture>
+                        <source srcset="images/clients-says/image4.webp" type="image/webp" />
+                        <img src="images/clients-says/image4.png" alt="" /> </picture
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+        <footer class="footer contact">
+  <div class="container">
+    <h2 class="footer__title title title-white">get in touch</h2>
+    <div class="footer__body">
+      <div class="footer__column">
+        <div class="footer__contact contact">
+          <a class="contact__location" href="#">
+            <svg><use xlink:href="images/sprite.svg#pin"></use></svg>23 Mulholland Drive, Suite 721. Los Angeles 10010 100 S. Main Street. Los Angeles 90012
+          </a>
+          <a class="contact__phone-number" href="tel:16705675590">
+            <svg><use xlink:href="images/sprite.svg#phone"></use></svg> +1-670-567-5590
+          </a>
+          <a class="contact__mail" href="#">
+            <svg><use xlink:href="images/sprite.svg#envelope"></use></svg>hello@clemocreative.com
+          </a>
+          <div class="contact__social-icons social-icons">
+            <a href="https://www.facebook.com/" class="social-icons__facebook social-icon">
+              <svg>
+                <use xlink:href="images/sprite.svg#facebook"></use>
+              </svg>
+            </a>
+            <a href="https://twitter.com/" class="social-icons__twitter social-icon">
+              <svg>
+                <use xlink:href="images/sprite.svg#twitter"></use>
+              </svg>
+            </a>
+            <a href="https://www.google.com/" class="social-icons__google social-icon">
+              <svg>
+                <use xlink:href="images/sprite.svg#google"></use>
+              </svg>
+            </a>
+            <a href="https://www.pinterest.com/" class="social-icons__pinterest social-icon">
+              <svg>
+                <use xlink:href="images/sprite.svg#pinterest"></use>
+              </svg>
+            </a>
+            <a href="https://www.instagram.com/" class="social-icons__instagram social-icon">
+              <svg>
+                <use xlink:href="images/sprite.svg#instagram"></use>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="footer__column">
+        <form class="footer__form form">
+          <div class="form__group">
+            <input class="form__input" placeholder=" " />
+            <lable class="form__lable">name</lable>
+          </div>
+          <div class="form__group">
+            <input class="form__input" placeholder=" " />
+            <lable class="form__lable">e-mail</lable>
+          </div>
+          <div class="form__group">
+            <input class="form__input" placeholder=" " />
+            <lable class="form__lable">your message</lable>
+          </div>
+          <button class="form__button btn btn-white">submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</footer>
+
+        <div id="creative-kitchen-popup" class="popup">
+  <div class="popup__body">
+    <div class="popup__content">
+      <a href="#" class="popup__close close-popup">
+        <span></span>
+        <span></span>
+      </a>
+      <h2 class="popup__title title title-bold">creative kitchen</h2>
+      <div class="popup__text">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis quidem distinctio eum, esse ab beatae, non asperiores labore ut aspernatur
+          veritatis error? Molestias, voluptate laborum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis quidem distinctio eum, esse ab
+          beatae, non asperiores labore ut aspernatur veritatis error? Molestias, voluptate laborum. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Reiciendis quidem distinctio eum, esse ab beatae, non asperiores labore ut aspernatur veritatis error? Molestias, voluptate laborum. Lorem ipsum dolor
+          sit amet consectetur adipisicing elit. Reiciendis quidem distinctio eum, esse ab beatae, non asperiores labore ut aspernatur veritatis error?
+          Molestias, voluptate laborum.
+        </p>
+        <p>Lorem ipsum dolor sit amet.</p>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="art-installation-popup" class="popup">
+  <div class="popup__body">
+    <div class="popup__content">
+      <a href="#" class="popup__close close-popup">
+        <span></span>
+        <span></span>
+      </a>
+      <h2 class="popup__title title title-bold">art installation</h2>
+      <div class="popup__text">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis quidem distinctio eum, esse ab beatae, non asperiores labore ut aspernatur
+          veritatis error? Molestias, voluptate laborum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis quidem distinctio eum, esse ab
+          beatae, non asperiores labore ut aspernatur veritatis error? Molestias, voluptate laborum. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Reiciendis quidem distinctio eum, esse ab beatae, non asperiores labore ut aspernatur veritatis error? Molestias, voluptate laborum. Lorem ipsum dolor
+          sit amet consectetur adipisicing elit. Reiciendis quidem distinctio eum, esse ab beatae, non asperiores labore ut aspernatur veritatis error?
+          Molestias, voluptate laborum.
+        </p>
+        <p>Lorem ipsum dolor sit amet.</p>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="print-design-popup" class="popup">
+  <div class="popup__body">
+    <div class="popup__content">
+      <a href="#" class="popup__close close-popup">
+        <span></span>
+        <span></span>
+      </a>
+      <h2 class="popup__title title title-bold">print design</h2>
+      <div class="popup__text">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis quidem distinctio eum, esse ab beatae, non asperiores labore ut aspernatur
+          veritatis error? Molestias, voluptate laborum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis quidem distinctio eum, esse ab
+          beatae, non asperiores labore ut aspernatur veritatis error? Molestias, voluptate laborum. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Reiciendis quidem distinctio eum, esse ab beatae, non asperiores labore ut aspernatur veritatis error? Molestias, voluptate laborum. Lorem ipsum dolor
+          sit amet consectetur adipisicing elit. Reiciendis quidem distinctio eum, esse ab beatae, non asperiores labore ut aspernatur veritatis error?
+          Molestias, voluptate laborum.
+        </p>
+        <p>Lorem ipsum dolor sit amet.</p>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="kitchen-image-popup" class="popup">
+  <div class="popup__body">
+    <div class="popup__content popup__content-image">
+      <a href="#" class="popup__close close-popup">
+        <span></span>
+        <span></span>
+      </a>
+      <div class="popup__image">
+        <picture>
+          <source srcset="images/what-we-do-imgs/01.webp" type="image/webp" />
+          <img src="images/what-we-do-imgs/01.jpg" alt="" />
+        </picture>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="installation-image-popup" class="popup">
+  <div class="popup__body">
+    <div class="popup__content popup__content-image">
+      <a href="#" class="popup__close close-popup">
+        <span></span>
+        <span></span>
+      </a>
+      <div class="popup__image">
+        <picture>
+          <source srcset="images/what-we-do-imgs/02.webp" type="image/webp" />
+          <img src="images/what-we-do-imgs/02.jpg" alt="" />
+        </picture>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="design-image-popup" class="popup">
+  <div class="popup__body">
+    <div class="popup__content popup__content-image">
+      <a href="#" class="popup__close close-popup">
+        <span></span>
+        <span></span>
+      </a>
+      <div class="popup__image">
+        <picture>
+          <source srcset="images/what-we-do-imgs/03.webp" type="image/webp" />
+          <img src="images/what-we-do-imgs/03.jpg" alt="" />
+        </picture>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="best-works-image-1" class="popup">
+  <div class="popup__body">
+    <div class="popup__content popup__content-image">
+      <a href="#" class="popup__close close-popup">
+        <span></span>
+        <span></span>
+      </a>
+      <div class="popup__image">
+        <picture>
+          <source srcset="images/our-bestworks-imgs/1.webp" type="image/webp" />
+          <img src="images/our-bestworks-imgs/1.jpg" alt="" />
+        </picture>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="best-works-image-2" class="popup">
+  <div class="popup__body">
+    <div class="popup__content popup__content-image">
+      <a href="#" class="popup__close close-popup">
+        <span></span>
+        <span></span>
+      </a>
+      <div class="popup__image">
+        <picture>
+          <source srcset="images/our-bestworks-imgs/2.webp" type="image/webp" />
+          <img src="images/our-bestworks-imgs/2.jpg" alt="" />
+        </picture>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="best-works-image-3" class="popup">
+  <div class="popup__body">
+    <div class="popup__content popup__content-image">
+      <a href="#" class="popup__close close-popup">
+        <span></span>
+        <span></span>
+      </a>
+      <div class="popup__image">
+        <picture>
+          <source srcset="images/our-bestworks-imgs/3.webp" type="image/webp" />
+          <img src="images/our-bestworks-imgs/3.jpg" alt="" />
+        </picture>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="best-works-image-4" class="popup">
+  <div class="popup__body">
+    <div class="popup__content popup__content-image">
+      <a href="#" class="popup__close close-popup">
+        <span></span>
+        <span></span>
+      </a>
+      <div class="popup__image">
+        <picture>
+          <source srcset="images/our-bestworks-imgs/4.webp" type="image/webp" />
+          <img src="images/our-bestworks-imgs/4.jpg" alt="" />
+        </picture>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="best-works-image-5" class="popup">
+  <div class="popup__body">
+    <div class="popup__content popup__content-image">
+      <a href="#" class="popup__close close-popup">
+        <span></span>
+        <span></span>
+      </a>
+      <div class="popup__image">
+        <picture>
+          <source srcset="images/our-bestworks-imgs/5.webp" type="image/webp" />
+          <img src="images/our-bestworks-imgs/5.jpg" alt="" />
+        </picture>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="best-works-image-6" class="popup">
+  <div class="popup__body">
+    <div class="popup__content popup__content-image">
+      <a href="#" class="popup__close close-popup">
+        <span></span>
+        <span></span>
+      </a>
+      <div class="popup__image">
+        <picture>
+          <source srcset="images/our-bestworks-imgs/6.webp" type="image/webp" />
+          <img src="images/our-bestworks-imgs/6.jpg" alt="" />
+        </picture>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="reviews-image-popup-1" class="popup">
+  <div class="popup__body">
+    <div class="popup__content popup__content-image">
+      <a href="#" class="popup__close close-popup">
+        <span></span>
+        <span></span>
+      </a>
+      <div class="popup__image">
+        <picture>
+          <source srcset="images/clients-says/image1.webp" type="image/webp" />
+          <img src="images/clients-says/image1.png" alt="" />
+        </picture>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="reviews-image-popup-2" class="popup">
+  <div class="popup__body">
+    <div class="popup__content popup__content-image">
+      <a href="#" class="popup__close close-popup">
+        <span></span>
+        <span></span>
+      </a>
+      <div class="popup__image">
+        <picture>
+          <source srcset="images/clients-says/image2.webp" type="image/webp" />
+          <img src="images/clients-says/image2.png" alt="" />
+        </picture>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="reviews-image-popup-3" class="popup">
+  <div class="popup__body">
+    <div class="popup__content popup__content-image">
+      <a href="#" class="popup__close close-popup">
+        <span></span>
+        <span></span>
+      </a>
+      <div class="popup__image">
+        <picture>
+          <source srcset="images/clients-says/image3.webp" type="image/webp" />
+          <img src="images/clients-says/image3.png" alt="" />
+        </picture>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="reviews-image-popup-4" class="popup">
+  <div class="popup__body">
+    <div class="popup__content popup__content-image">
+      <a href="#" class="popup__close close-popup">
+        <span></span>
+        <span></span>
+      </a>
+      <div class="popup__image">
+        <picture>
+          <source srcset="images/clients-says/image4.webp" type="image/webp" />
+          <img src="images/clients-says/image4.png" alt="" />
+        </picture>
+      </div>
+    </div>
+  </div>
+</div>
+
+      </main>
+    </div>
+
+    <!--!============= S C R I P T S =============-->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/burger-manu.js"></script>
+    <script src="js/touchscreen-manu.js"></script>
+    <script src="js/popup.js"></script>
+    <script src="js/sticky.js"></script>
+    <script src="js/swiper-slider.js"></script>
+    <script src="js/tabs.js"></script>
+    <script src="js/smooth-scrolling.js"></script>
+    <!--!============= S C R I P T S =============-->
+  </body>
+</html>
