@@ -1,0 +1,25 @@
+.header {
+  position: absolute;
+  z-index: 5;
+  min-width: 100%;
+  padding: calc(15px + (65 - 15) * (100vw - 320px) / (1400 - 320)) 0 0 0;
+  .container {
+  }
+  &__row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__logo {
+    font-family: 'Montserrat';
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 0.8;
+    color: #000000;
+  }
+
+  &__manu {
+    display: flex;
+  }
+}

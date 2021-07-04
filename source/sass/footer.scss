@@ -1,0 +1,41 @@
+.footer {
+  background-color: #000000;
+  padding: calc(40px + (100 - 40) * (100vw - 320px) / (1400 - 320)) 0;
+  &__body {
+    display: flex;
+    margin: 0 -20px;
+  }
+
+  &__title {
+    margin: 0 0 calc(60px + (85 - 60) * (100vw - 320px) / (1400 - 320)) 0;
+  }
+
+  &__column {
+    flex: 0 1 50%;
+    padding: 0 20px;
+  }
+
+  &__contact {
+  }
+
+  &__form {
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 2.67;
+    color: rgba(255, 255, 255, 0.4);
+  }
+  @media (max-width: 800px) {
+    &__body {
+      flex-wrap: wrap;
+    }
+    &__column {
+      flex: 0 1 100%;
+    }
+    &__column:first-child {
+      margin: 0 0 50px 0;
+    }
+    &__contact {
+    }
+  }
+}
